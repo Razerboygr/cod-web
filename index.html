@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Of Duty Modern Warfare 2</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="boton.css">
+    <script src="https://kit.fontawesome.com/acb7689767.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="logo"></div>
+        <a class="btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <div class="menu">
+            <a href="#ini">Inicio</a>
+            <a href="#cas">Historias</a>
+            <a href="#tra">Trailer</a>
+            <a href="#per">Personajes</a>
+            <a href="#con">Contactos</a>
+        </div>
+    </nav>
+    <header></header>
+    <a name="ini"></a>
+    <h2>Inicio</h2>
+    <p>Call of Duty: Modern Warfare II es un videojuego de disparos en primera persona publicado por Activision y
+        desarrollado por Infinity Ward en colaboración con High Moon Studios, Beenox, Raven Software, Sledgehammer
+        Games, Activision Shanghai, Demonware y Toys for Bob.
+    </p>
+    <a name="cas"></a>
+    <h2>Historias</h2>
+    <p>La historia del juego transcurre 5 años después de los eventos de Modern Warfare, es decir, en el año 2016. Imran
+        Zakhaev, el antagonista de la primera parte de la trilogía de Modern Warfare, fue declarado héroe de la nueva
+        Rusia y se lo homenajeó con un monumento y poniéndole su nombre al Aeropuerto Internacional de
+        Moscú-Sheremétievo. En esta entrega el jugador asume los roles de los personajes Joseph Allen, un soldado de los
+        Rangers en las primeras misiones, para luego dar lugar al soldado James Ramírez por el bando estadounidense; y
+        el sargento Gary Roach Sanderson de la Task Force 141 por el bando británico (aunque en esta fuerza de tareas
+        especiales hay miembros de otros países también, como Australia y Canadá).</p>
+    <p> En Modern Warfare 2 el antagonista principal es Vladimir Makarov, un antiguo discípulo de Zakhaev quien luego de
+        perpetrar un ataque terrorista en el aeropuerto internacional moscovita, logra que Estados Unidos, el país que
+        más odia, sea invadido por Rusia. Pero hacia el final del juego se revela que Makarov no es el villano
+        principal, sino la persona menos esperada.</p>
+    <a name="tra"></a>
+    <h2>Trailer</h2>
+    <iframe class="trailer" width="750" height="400" src="https://www.youtube.com/embed/9aDP29e_Qpk?si=AwZ-PpSVOeTR4m3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <a name="per"></a>
+    <h2>Personajes</h2>
+    <script type="text/javascript">
+        $(".btn").on("click", function () {
+            $('.menu').toggleClass("show");
+        });
+    </script>
+    <div class="gallery">
+        <div class="character">
+            <img src="img/descarga.jpeg" alt="">
+            <p>Perro</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_Alejandro_Vargas.webp" alt="">
+            <p>Alejandro Vargas</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_Farah.webp" alt="">
+            <p>Farah</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_Gaz.webp" alt="">
+            <p>Gaz</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_General_Shepherd.webp" alt="">
+            <p>General Sheperd</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_Johnny_Soap_MacTavish.webp" alt="">
+            <p>Soap Mactavish</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_Nikolai.webp" alt="">
+            <p>Nikolai</p>
+        </div>
+        <div class="character">
+            <img src="img/MWII_-_C_-_Simon_Ghost_Riley.webp" alt="">
+            <p>Simon Ghost</p>
+        </div>
+    </div>
+    <div class="contact">
+        <a name="con"></a>
+        <h2>Contactanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo">
+
+            <label for="correo">Correo:</label>
+            <input type="email" id="correo" name="correo" required placeholder="correo@gmail.com">
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required placeholder="Agrega un comentario"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <div class="footer">
+        <div>
+            <a href="https://www.pinterest.es/" target="_blank">
+                <i class="fa-solid fa-phone"></i></a>
+            <i class="fa-brands fa-square-pinterest"></i>
+            <i class="fa-brands fa-square-instagram" style="color: #512e1f"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <a href="https://web.telegram.org/a/" target="_blank">
+                <i class="fa-brands fa-telegram"></i></a>
+        </div>
+        <p>Derechos de autor © 2023 Tu Sitio. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
